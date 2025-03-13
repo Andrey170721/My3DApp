@@ -38,7 +38,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT umessage, WPARAM wparam, LPARAM lparam)
 }
 
 
-int main()
+int mainDeprecated()
 {
 	LPCWSTR applicationName = L"My3DApp";
 	HINSTANCE hInstance = GetModuleHandle(nullptr);
